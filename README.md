@@ -87,7 +87,7 @@ document.getElementById("myForm").addEventListener("submit", function(e) {
 
 ---
 
-Perfect! Here’s the first recommendation in detail — a full, ready-to-use, centralized Python Flask implementation with a simple front-end example for context.
+a full, ready-to-use, centralized Python Flask implementation with a simple front-end example for context.
 
 
 ---
