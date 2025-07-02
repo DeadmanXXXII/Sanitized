@@ -151,10 +151,10 @@ if __name__ == "__main__":
 ---
 
 🧪 How to run
-
+```bash
 pip install flask
 python app.py
-
+```
 Visit http://127.0.0.1:5000/ in your browser and try inputs.
 
 
@@ -163,7 +163,7 @@ Visit http://127.0.0.1:5000/ in your browser and try inputs.
 💻 Optional: client-side JavaScript validation
 
 If you'd like an extra layer (to catch before hitting the server), you can add this inside the <form> block in the HTML above:
-
+```javascript
 <script>
 function sanitizeInput(input) {
     const bannedChars = /[<>\{\}:\$#;\/>@_\-\*"'\\.\\%+=]/g;
@@ -178,7 +178,7 @@ document.querySelector("form").addEventListener("submit", function(e) {
     }
 });
 </script>
-
+```
 
 ---
 
