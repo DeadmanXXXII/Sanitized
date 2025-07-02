@@ -3,7 +3,7 @@ A payload entry blocker.
 
 ✅ Overall goals:
 
-Prevent XSS, SQLi, SSTI, and command injection.
+Prevent XSS, Binary, SQLi, SSTI, and command injection.
 
 Sanitize all text fields globally.
 
