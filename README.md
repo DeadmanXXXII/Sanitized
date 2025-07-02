@@ -108,6 +108,7 @@ Perfect! Here’s the first recommendation in detail — a full, ready-to-use, c
 
 🧬 app.py
 
+```python
 from flask import Flask, request, jsonify, render_template_string
 
 app = Flask(__name__)
@@ -145,7 +146,7 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
+```
 
 ---
 
