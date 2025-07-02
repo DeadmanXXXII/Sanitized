@@ -30,7 +30,7 @@ Create one function to validate user input everywhere.
 
 ```python
 def sanitize_input(user_input: str) -> bool:
-    banned_chars = set('<>[]{}():$#;/>@_-*"\'.\\%+=')
+    banned_chars = set('<>[]{}():$#;/>@_-*"\'.\\%+=0')
     for char in user_input:
         if char in banned_chars:
             return False  # Invalid input
